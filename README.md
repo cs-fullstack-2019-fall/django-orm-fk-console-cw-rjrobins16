@@ -1,5 +1,5 @@
 # Classwork on using the Django ORM capability from the console
-
+#### You created both models with the correct data You did not completely link them with the foreign key. you needed (author = models.ForeignObject(Aurthor, on_delete= models.CASCADE)) 3/5 Score:1/2
 ## Exercise 1:
 * Create new model for ```Author```
 - Author should have properties for ```first_name``` and ```last_name```
